@@ -1,4 +1,4 @@
-# link
+//link
 
 const router=require('express').Router()
 const users=require('../models/users')
@@ -6,7 +6,7 @@ const auth=require('../middleware/auth')
 
 
 
-#USER MODEL
+//USER MODEL
 const UsersSchema=new mongoose.Schema({
     sendRequest:[{
         type:mongoose.Schema.Types.ObjectId,
