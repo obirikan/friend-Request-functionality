@@ -2,7 +2,7 @@
 
 const router=require('express').Router()
 const users=require('../models/users')
-const auth=require('../middleware/auth')
+const auth=require('../middleware/auth') //middleware(jwt)
 
 
 
